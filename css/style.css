@@ -8,15 +8,18 @@
 }
 
 body {
-    background-image: url("../img/banner.jpg");
-    background-position: center;
-    background-size: cover;
+    background: linear-gradient(to bottom, #01261C, #025949, #038C73);
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 button {
     background-color: #fdfdfd;
-    color: #023059;
-    border: 2px solid #023059;
+    color: #025949;
+    border: 2px solid #025949;
     padding: .3rem .6rem;
     font-size: 1rem;
     cursor: pointer;
@@ -28,7 +31,7 @@ button {
 }
 
 button:hover {
-    background-color: #023059;
+    background-color: #025949;
     color: #fff;
 }
 
@@ -37,7 +40,7 @@ button:hover > i{
 }
 
 button i {
-    color: #023059;
+    color: #025949;
     font-weight: bolder;
     pointer-events: none;
 }
@@ -149,11 +152,11 @@ input, select {
 }
 
 .done {
-    background-color: #8DCBF2;
+    background-color: #F0F1F2;
 }
 
 .done h3 {
-    color: #fff;
+    color: #333;
     text-decoration: line-through;
     font-style: italic;
 }
