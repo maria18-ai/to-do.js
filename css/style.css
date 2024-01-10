@@ -8,7 +8,7 @@
 }
 
 body {
-    background: linear-gradient(to bottom, #01261C, #025949, #038C73);
+    background: linear-gradient(to bottom, #038C73, #025949, #01261C);
     height: 100vh;
     margin: 0;
     display: flex;
